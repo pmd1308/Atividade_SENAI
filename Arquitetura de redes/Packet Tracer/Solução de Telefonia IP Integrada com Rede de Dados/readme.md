@@ -16,7 +16,9 @@ Desative o PoE no roteador se os telefones usarem fonte externa.
 Desativar Resolução de Nomes:
 ```
 no ip domain lookup
+```
 Desativar PoE (opcional):
+```
 enable
 conf t
 interface range f 0/1 - 24
